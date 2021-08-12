@@ -1,0 +1,128 @@
+.content {
+  padding: 168px 0 137px 0;
+  max-width: 841px;
+  margin: 0 auto;
+
+  &-top {
+    text-align: center;
+    margin: 0 0 65px 0;
+
+    &__category {
+      color: #748187;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2.8px;
+      margin: 0 0 15px 0;
+    }
+
+    &__title {
+      color: #273d46;
+      font-size: 36px;
+      line-height: 50px;
+      max-width: 725px;
+      margin: 0 auto;
+    }
+  }
+
+  &__image {
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 0 85px 0;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &-bottom {
+    padding: 0 45px;
+
+    &__text {
+      color: #53646b;
+      font-size: 24px;
+      line-height: 40px;
+      margin: 0 0 48px 0;
+
+      p {
+        margin:  0 0 40px 0;
+
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+
+    &-info {
+
+      &-list {
+        margin: 0 0 59px 0;
+
+        li {
+          font-family: Arial, sans-serif;
+          font-size: 20px;
+          margin: 0 0 15px 0;
+          background: url("../img/png/check.png") left no-repeat;
+          padding: 0 0 0 35px;
+
+          &:last-child {
+            margin: 0;
+          }
+
+          &:nth-child(1) {
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+            color: #273d46;
+          }
+
+          &:nth-child(2) {
+            color: #80b7b3;
+            font-style: italic;
+          }
+
+          &:nth-child(3) {
+            color: #273d46;
+            font-weight: 700;
+          }
+
+          &:nth-child(4) {
+            color: #aeb5b7;
+            text-decoration: line-through;
+          }
+        }
+      }
+
+      &__link {
+        height: 44px;
+        display: inline-block;
+        line-height: 44px;
+        padding: 0 30px;
+        border-radius: 24px;
+        background-color: #80b7b3;
+        box-shadow: 0 5px 1px rgba(0, 0, 0, 0.5);
+        font-family: Arial, sans-serif;
+        color: #ffffff;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2.8px;
+
+        span {
+          padding: 0 30px 0 0;
+          background: url(../img/svg/arrow.svg) right no-repeat;
+        }
+
+        &:hover {
+          background-color: #511e23;
+        }
+
+        &:active {
+          position: relative;
+          top: 3px;
+          box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+
+        }
+      }
+    }
+  }
+}
+
